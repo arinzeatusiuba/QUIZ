@@ -1,0 +1,145 @@
+
+
+.container {
+  max-width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+  header {
+    background-color: red;
+     padding: 20px;
+     display: flex;
+     align-items: center;
+     z-index: 1;
+   }
+
+   .logo {
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+
+  .image1 {
+    width: 100vh;
+  }
+
+   nav a {
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+.title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.navigation {
+ color: white;
+  padding: 10px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+}
+
+.input {
+  position: relative;
+}
+
+.input i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  color: #ccc;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.checkbox {
+  margin-bottom: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #ff5500;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #ff5601;
+}
+
+.btn-icon-right {
+  padding-right: 35px;
+}
+
+.btn-sign-in {
+  margin-top: 20px;
+}
+
+.btn-sign-in span {
+  position: relative;
+  top: -1px;
+}
+
+
+
